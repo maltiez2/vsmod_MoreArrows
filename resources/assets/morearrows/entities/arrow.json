@@ -1,0 +1,23 @@
+﻿{
+  "code": "arrow",
+  "class": "CombatOverhaul:Projectile",
+  "variantgroups": [
+    {"code": "type", "states": ["bodkin", "blunt", "barbed"]},
+    {"code": "material", "states": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "steel", "meteoriciron"]}
+  ],
+  "hitboxSize": {"x": 0.125, "y": 0.125},
+  "client": {
+    "size": 0.55,
+    "renderer": "Shape",
+    "shapeByType": {
+      "*-meteoriciron": {"base": "morearrows:envelop-{type}"},
+      "*-steel": {"base": "morearrows:envelop-{type}"},
+      "*-iron": {"base": "morearrows:envelop-{type}"},
+      "*": {"base": "morearrows:insert-{type}"}
+    },
+    "texturesByType": {"*": {"material": {"base": "game:block/metal/ingot/{material}"}}},
+    "behaviors": [{"code": "passivephysics", "groundDragFactor": 1, "airDragFactor": 0.25, "gravityFactor": 0.5}, {"code": "interpolateposition"}]
+  },
+  "server": {"behaviors": [{"code": "passivephysics", "groundDragFactor": 1, "airDragFactor": 0.25, "gravityFactor": 0.5}, {"code": "despawn", "minSeconds": 600}]},
+  "sounds": {}
+}

@@ -1,0 +1,27 @@
+{
+  "item-arrow-barbed-*bronze": "Bronze barbed arrow",
+  "item-arrow-barbed-iron": "Iron barbed arrow",
+  "item-arrow-barbed-meteoriciron": "Meteoric iron barbed arrow",
+  "item-arrow-barbed-steel": "Steel barbed arrow",
+  "item-arrow-blunt-*bronze": "Bronze blunt arrow",
+  "item-arrow-blunt-iron": "Iron blunt arrow",
+  "item-arrow-blunt-meteoriciron": "Meteoric iron blunt arrow",
+  "item-arrow-blunt-steel": "Steel blunt arrow",
+  "item-arrow-bodkin-*bronze": "Bronze bodkin arrow",
+  "item-arrow-bodkin-iron": "Iron bodkin arrow",
+  "item-arrow-bodkin-meteoriciron": "Meteoric iron bodkin arrow",
+  "item-arrow-bodkin-steel": "Steel bodkin arrow",
+
+  "item-part-arrowhead-barbed-*bronze": "Bronze barbed arrow head",
+  "item-part-arrowhead-barbed-iron": "Iron barbed arrow head",
+  "item-part-arrowhead-barbed-meteoriciron": "Meteoric iron barbed arrow head",
+  "item-part-arrowhead-barbed-steel": "Steel barbed arrow head",
+  "item-part-arrowhead-blunt-*bronze": "Bronze blunt arrow head",
+  "item-part-arrowhead-blunt-iron": "Iron blunt arrow head",
+  "item-part-arrowhead-blunt-meteoriciron": "Meteoric iron blunt arrow head",
+  "item-part-arrowhead-blunt-steel": "Steel blunt arrow head",
+  "item-part-arrowhead-bodkin-*bronze": "Bronze bodkin arrow head",
+  "item-part-arrowhead-bodkin-iron": "Iron bodkin arrow head",
+  "item-part-arrowhead-bodkin-meteoriciron": "Meteoric iron bodkin arrow head",
+  "item-part-arrowhead-bodkin-steel": "Steel bodkin arrow head"
+}

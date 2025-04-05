@@ -1,0 +1,62 @@
+﻿{
+  "code": "arrow",
+  "class": "Item",
+  "variantgroups": [{"code": "type", "states": ["bodkin"]}, {"code": "material", "states": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}],
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Stacking",
+        "placeRemoveSound": "game:sounds/block/ceramicplace",
+        "stackingModelByType": {"*-crude": "combatoverhaul:ammo/pile-arrows-crude", "*": "combatoverhaul:ammo/pile-arrows-fletched"},
+        "modelItemsToStackSizeRatio": 4.2,
+        "stackingCapacity": 160,
+        "upSolid": true,
+        "transferQuantity": 5,
+        "bulkTransferQuantity": 25,
+        "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.03125, "z2": 1},
+        "cbScaleYByLayer": 0.2
+      }
+    },
+    {
+      "name": "CombatOverhaul:Projectile",
+      "properties": {
+        "stats": {
+          "AdditionalDurabilityCost": 0,
+          "CollisionRadius": 0.05,
+          "PenetrationDistance": 0.2,
+          "DamageStatsByType": {
+            "*-tinbronze": {"DamageType": "PiercingAttack", "Damage": 4.5},
+            "*-bismuthbronze": {"DamageType": "PiercingAttack", "Damage": 4.5},
+            "*-blackbronze": {"DamageType": "PiercingAttack", "Damage": 4.5},
+            "*-iron": {"DamageType": "PiercingAttack", "Damage": 5},
+            "*-meteoriciron": {"DamageType": "PiercingAttack", "Damage": 5.2},
+            "*-steel": {"DamageType": "PiercingAttack", "Damage": 5.5}
+          },
+          "DamageTierBonusByType": {"*-tinbronze": 1, "*-bismuthbronze": 1, "*-blackbronze": 1, "*-iron": 1, "*-meteoriciron": 2, "*-steel": 3},
+          "SpeedThreshold": 0.3,
+          "Knockback": 0.5,
+          "EntityCode": "morearrows:arrow-{type}-{material}",
+          "HitSound": "game:sounds/player/projectilehit",
+          "DurabilityDamage": 0,
+          "DropChanceByType": {"*-tinbronze": 0.95, "*-bismuthbronze": 0.95, "*-blackbronze": 0.95, "*-iron": 0.98, "*-meteoriciron": 0.98, "*-steel": 0.995}
+        }
+      }
+    }
+  ],
+  "maxstacksize": 64,
+  "storageFlags": 513,
+  "shapeByType": {
+    "*-meteoriciron": {"base": "morearrows:envelop-bodkin"},
+    "*-steel": {"base": "morearrows:envelop-bodkin"},
+    "*-iron": {"base": "morearrows:envelop-bodkin"},
+    "*": {"base": "morearrows:insert-bodkin"}
+  },
+  "texturesByType": {"*": {"material": {"base": "game:block/metal/ingot/{material}"}}},
+  "creativeinventory": {"general": ["*"], "items": ["*"], "tools": ["*"], "combatoverhaul": ["*"]},
+  "guiTransform": {"rotation": {"x": -18, "y": -39, "z": -145}, "origin": {"x": 0.3, "y": -0.35, "z": 0}, "scale": 1.63},
+  "fpHandTransform": {"translation": {"x": 0.35, "y": 0, "z": 0}, "rotation": {"x": 87, "y": 90, "z": -30}, "scale": 1.14},
+  "tpHandTransform": {"translation": {"x": -1.05, "y": -0.4599, "z": -0.87}, "rotation": {"x": 0, "y": 2, "z": 3}, "scale": 0.55},
+  "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0.5, "y": -0.03, "z": 0.5}, "scale": 2.64},
+  "attributes": {"handbook": {"groupBy": ["arrow-bodkin-*"]}}
+}

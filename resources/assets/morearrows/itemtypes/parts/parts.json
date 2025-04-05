@@ -1,0 +1,37 @@
+﻿{
+  "code": "part",
+  "class": "Item",
+  "variantgroups": [
+    {"code": "type", "states": ["arrowhead"]},
+    {"code": "arrowheadtype", "states": ["bodkin", "blunt", "barbed"]},
+    {"code": "material", "states": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+  ],
+  "shapeByType": {
+    "*-bodkin-*bronze": {"base": "morearrows:parts/insert-bodkin"},
+    "*-bodkin-meteoriciron": {"base": "morearrows:parts/envelop-bodkin"},
+    "*-bodkin-steel": {"base": "morearrows:parts/envelop-bodkin"},
+    "*-bodkin-iron": {"base": "morearrows:parts/envelop-bodkin"},
+    "*-blunt-*bronze": {"base": "morearrows:parts/insert-blunt"},
+    "*-blunt-meteoriciron": {"base": "morearrows:parts/envelop-blunt"},
+    "*-blunt-steel": {"base": "morearrows:parts/envelop-blunt"},
+    "*-blunt-iron": {"base": "morearrows:parts/envelop-blunt"},
+    "*-barbed-*bronze": {"base": "morearrows:parts/insert-barbed"},
+    "*-barbed-meteoriciron": {"base": "morearrows:parts/envelop-barbed"},
+    "*-barbed-steel": {"base": "morearrows:parts/envelop-barbed"},
+    "*-barbed-iron": {"base": "morearrows:parts/envelop-barbed"}
+  },
+  "texturesByType": {"*": {"material": {"base": "game:block/metal/ingot/{material}"}}},
+  "attributes": {
+    "groundStorageTransform": {"translation": {"x": 0.1, "y": 0.05, "z": 0.1}, "rotation": {"x": 4, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {"layout": "Quadrants", "placeRemoveSound": "sounds/player/build", "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1}}
+    }
+  ],
+  "creativeinventory": {"general": ["*"], "items": ["*"], "tools": ["*"], "combatoverhaul": ["*"]},
+  "guiTransformByType": {"*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -51, "y": 38, "z": -6}, "origin": {"x": 0.9, "y": 0.85, "z": 0}, "scale": 3.7}},
+  "tpHandTransform": {"translation": {"x": 0.2, "y": 0, "z": -0.45}, "rotation": {"x": 0, "y": 90, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
+  "groundTransform": {"translation": {"x": 0, "y": 0.04, "z": 0}, "rotation": {"x": -2, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 3}
+}
