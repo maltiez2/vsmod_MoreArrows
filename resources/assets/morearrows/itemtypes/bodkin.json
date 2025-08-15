@@ -33,7 +33,7 @@
             "*-meteoriciron": {"DamageType": "PiercingAttack", "Damage": 5.2},
             "*-steel": {"DamageType": "PiercingAttack", "Damage": 5.5}
           },
-          "DamageTierBonusByType": {"*-tinbronze": 1, "*-bismuthbronze": 1, "*-blackbronze": 1, "*-iron": 1, "*-meteoriciron": 2, "*-steel": 3},
+          "DamageTierBonusByType": {"*-tinbronze": 1, "*-bismuthbronze": 1, "*-blackbronze": 1, "*-iron": 2, "*-meteoriciron": 3, "*-steel": 4},
           "SpeedThreshold": 0.3,
           "Knockback": 0.5,
           "EntityCode": "morearrows:arrow-{type}-{material}",

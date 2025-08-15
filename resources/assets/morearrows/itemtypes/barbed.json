@@ -33,7 +33,7 @@
             "*-meteoriciron": {"DamageType": "SlashingAttack", "Damage": 8},
             "*-steel": {"DamageType": "SlashingAttack", "Damage": 9}
           },
-          "DamageTierBonusByType": {"*-tinbronze": -2, "*-bismuthbronze": -2, "*-blackbronze": -2, "*-iron": -2, "*-meteoriciron": -1, "*-steel": 0},
+          "DamageTierBonusByType": {"*-tinbronze": -2, "*-bismuthbronze": -2, "*-blackbronze": -2, "*-iron": -1, "*-meteoriciron": 0, "*-steel": 1},
           "SpeedThreshold": 0.3,
           "Knockback": 0.5,
           "EntityCode": "morearrows:arrow-{type}-{material}",

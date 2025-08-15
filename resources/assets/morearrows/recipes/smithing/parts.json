@@ -1,6 +1,6 @@
 [
 	{
-		"ingredient": { "type": "item", "code": "ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+		"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
 		"pattern": [[
 			"##_##_##",
 			"#__#__#_",
@@ -12,7 +12,7 @@
 		"output": { "type": "item", "code": "morearrows:part-arrowhead-barbed-{metal}", "stacksize": 6  }
 	},
 	{
-		"ingredient": { "type": "item", "code": "ingot-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
+		"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
 		"pattern": [[
 			"##_##_##",
 			"#__#__#_",
@@ -27,7 +27,7 @@
 		"output": { "type": "item", "code": "morearrows:part-arrowhead-barbed-{metal}", "stacksize": 9  }
 	},
 	{
-		"ingredient": { "type": "item", "code": "ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+		"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
 		"pattern": [[
 			"##_##_##",
 			"#__#__#_",
@@ -39,7 +39,7 @@
 		"output": { "type": "item", "code": "morearrows:part-arrowhead-bodkin-{metal}", "stacksize": 6  }
 	},
 	{
-		"ingredient": { "type": "item", "code": "ingot-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
+		"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
 		"pattern": [[
 			"##_##_##",
 			"#__#__#_",
@@ -54,7 +54,7 @@
 		"output": { "type": "item", "code": "morearrows:part-arrowhead-bodkin-{metal}", "stacksize": 9  }
 	},
 	{
-		"ingredient": { "type": "item", "code": "ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+		"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
 		"pattern": [[
 			"##_##_##",
 			"#__#__#_",
@@ -66,7 +66,7 @@
 		"output": { "type": "item", "code": "morearrows:part-arrowhead-blunt-{metal}", "stacksize": 6  }
 	},
 	{
-		"ingredient": { "type": "item", "code": "ingot-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
+		"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
 		"pattern": [[
 			"##_##_##",
 			"#__#__#_",

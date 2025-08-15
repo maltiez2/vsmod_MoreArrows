@@ -1,6 +1,7 @@
 ﻿{
   "code": "part",
   "class": "Item",
+  "maxstacksize": 64,
   "variantgroups": [
     {"code": "type", "states": ["arrowhead"]},
     {"code": "arrowheadtype", "states": ["bodkin", "blunt", "barbed"]},

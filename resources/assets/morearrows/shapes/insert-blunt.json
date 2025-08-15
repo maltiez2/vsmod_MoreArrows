@@ -9,7 +9,7 @@
 	},
 	"textures": {
 		"plain": "game:block/cloth/linen/plain",
-		"material": "game:block/metal/ingot/copper",
+		"material": "game:block/metal/ingot/blackbronze",
 		"feather1": "game:item/tool/material/feather1",
 		"wood": "game:item/tool/material/handle"
 	},

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>More Arrows</ModName>
     <ModType>content</ModType>
-    <ModVersion>1.0.0</ModVersion>
+    <ModVersion>1.0.4</ModVersion>
     <ModId>morearrows</ModId>
     <Description>Add more arrows for Combat Overhaul</Description>
     <Side>Universal</Side>
@@ -18,9 +18,6 @@
 
   <!-- Translators -->
   <ItemGroup>
-    <Compile Remove="resources\assets\morearrows\shapes\armor\**" />
-    <EmbeddedResource Remove="resources\assets\morearrows\shapes\armor\**" />
-    <None Remove="resources\assets\morearrows\shapes\armor\**" />
   </ItemGroup>
 
   <!-- Dependencies -->
@@ -99,7 +96,6 @@
 
   "description": "$(Description)",
   "authors": [ @(ModInfoAuthors->'"%(Identity)"', ', ') ],
-  "translation": [ @(ModInfoTranslators->'"%(Identity)"', ', ') ],
 
   "dependencies": {
     @(Dependencies->'"%(Identity)": "%(Version)"', ', ')
