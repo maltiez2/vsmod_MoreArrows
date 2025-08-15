@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>More Arrows</ModName>
     <ModType>content</ModType>
-    <ModVersion>1.0.4</ModVersion>
+    <ModVersion>1.1.0</ModVersion>
     <ModId>morearrows</ModId>
     <Description>Add more arrows for Combat Overhaul</Description>
     <Side>Universal</Side>
